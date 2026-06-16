@@ -4,46 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Diego Yucra | Ingeniero Eléctrico y Profesor de Matemáticas</title>
-
-  <meta name="description" content="Diego Yucra, Ingeniero Eléctrico y docente de Matemáticas, Electrónica y Sistemas Eléctricos. Servicios profesionales y enseñanza técnica.">
-  <meta name="keywords" content="Diego Yucra, ingeniero eléctrico, profesor matemáticas, electrónica, sistemas eléctricos, clases de matemáticas">
-
-  <!-- SEO social -->
-  <meta property="og:title" content="Diego Yucra | Ingeniero Eléctrico y Profesor">
-  <meta property="og:description" content="Ingeniero Eléctrico y docente especializado en matemáticas, electrónica y sistemas eléctricos.">
-  <meta property="og:type" content="website">
+  <title>Diego Yucra | Ingeniero Eléctrico y Profesor</title>
 
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f7fa;
-      color: #222;
+      background: #0f172a;
+      color: #e5e7eb;
     }
+
     header {
-      background: #0b3d91;
-      color: white;
-      padding: 40px;
+      background: linear-gradient(135deg, #0b3d91, #00c6ff);
+      padding: 50px 20px;
       text-align: center;
+      color: white;
     }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
     section {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
       padding: 20px;
     }
+
     .card {
-      background: white;
+      background: #111827;
       padding: 20px;
       margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
     }
+
+    h2 {
+      color: #38bdf8;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
-      background: #eee;
-      font-size: 14px;
+      background: #0b3d91;
+      color: white;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -52,13 +68,19 @@
 
 <header>
   <h1>Diego Yucra</h1>
-  <p>Ingeniero Eléctrico | Docente de Matemáticas, Electrónica y Sistemas Eléctricos</p>
+  <div class="subtitle">
+    Ingeniero Eléctrico | Docente de Matemáticas, Electrónica y Sistemas Eléctricos
+  </div>
 </header>
 
 <section>
+
   <div class="card">
     <h2>Perfil Profesional</h2>
-    <p>Ingeniero Eléctrico con experiencia en sistemas eléctricos, electrónica aplicada y enseñanza de matemáticas a nivel técnico y universitario.</p>
+    <p>
+      Ingeniero Eléctrico especializado en sistemas eléctricos, electrónica industrial y enseñanza de matemáticas.
+      Experiencia en formación técnica y apoyo académico universitario.
+    </p>
   </div>
 
   <div class="card">
@@ -66,7 +88,7 @@
     <ul>
       <li>Matemáticas aplicadas</li>
       <li>Electrónica básica y avanzada</li>
-      <li>Sistemas eléctricos</li>
+      <li>Sistemas eléctricos industriales</li>
     </ul>
   </div>
 
@@ -74,10 +96,11 @@
     <h2>Contacto</h2>
     <p>Email: tucorreo@ejemplo.com</p>
   </div>
+
 </section>
 
 <footer>
-  © 2026 Diego Yucra - Todos los derechos reservados
+  © 2026 Diego Yucra
 </footer>
 
 </body>
